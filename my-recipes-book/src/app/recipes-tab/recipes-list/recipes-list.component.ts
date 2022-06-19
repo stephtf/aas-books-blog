@@ -8,7 +8,7 @@ import { Recipe } from '../recipes.model';
 })
 export class RecipesListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe ("Pinoy Spaghetti", "A Filipino version of a classic Italian American dish", "https://www.kawalingpinoy.com/filipino-style-spaghetti/" )
+    new Recipe ("Pinoy Spaghetti", "A Filipino version of a classic Italian American dish", "https://www.goya.com/media/4173/creole-spaghetti.jpg?width=470https://www.kawalingpinoy.com/filipino-style-spaghetti/" )
   ];
 
   constructor() { }
