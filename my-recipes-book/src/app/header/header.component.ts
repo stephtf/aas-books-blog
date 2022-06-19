@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  hamburger = false;
+  
+  hamburgerFunct() {
+    this.hamburger = !this.hamburger; 
+  }
 
   constructor() { }
 
