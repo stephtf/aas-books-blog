@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-xs-12">
+        <a href="#" class="list-group-items clearfix" *ngFor="let post of posts">
+            <div class="pull-left">
+                <h5 class="list-group-item-heading">{{ post.name }}</h5>
+                <p class="list-group-item-text">
+                   {{ post.description }}  
+                </p>
+                <span class="pull-right">
+                    <img src="{{ post.imagePath }}" alt="{{post.name}}" class="img-responsive" style="max-height: 200px;">
+                </span>
+            </div>
+        </a>
+    </div>
+    <p>hello</p>
+</div>

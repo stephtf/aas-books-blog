@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <h2 class="m-3" href="#">Asian American Studies Book Blog</h2>
+    <button class="navbar-toggler hamburger" type="button" (click)="hamburgerFunct()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="link-text mt-1" href="#">Dashboard</a>
+        <a class="link-text mt-1" href="#">New Post</a>
+        <a class="link-text mt-1" href="#">Log In</a>
+      </div>
+    </div>
+  </nav>
+  <div class="right-container">
+  <div class="hamburger-container col-4" *ngIf="hamburger">
+    <a class="link-text nav-item nav-link mt-1" href="#">Recipes</a>
+    <a class="link-text nav-item nav-link mt-1" href="#">Shopping List</a>
+  </div>
+</div>
