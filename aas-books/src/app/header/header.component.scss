@@ -1,0 +1,37 @@
+h2 {
+    color: rgb(229, 79, 79);
+}
+
+.hamburger {
+    margin-right: 20px;
+}
+
+.link-text {
+    color: rgb(212, 61, 44);
+    margin-left: 25px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.link-text:hover {
+    color: rgb(215, 108, 96);
+}
+
+.hamburger-container {
+    padding-bottom: 10px;
+    text-align: right;
+    margin-right: 10px;
+    // background-color: lightblue;
+   
+}
+
+.right-container {
+    display: flex; 
+    justify-content: right;
+}
+
+@media screen and (min-width: 992px) {
+    .right-container {
+        display: none;
+    }
+}
